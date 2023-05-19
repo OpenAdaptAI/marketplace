@@ -4,9 +4,10 @@
             <v-toolbar-title class="text-h6" >
                 OpenAdapt.AI
             </v-toolbar-title>
-            <v-btn class="mx-2 justify-end" to = "/">Marketplace</v-btn>
+            <v-btn class="mx-2 justify-end" to = "/">Home</v-btn>
+            <v-btn class="mx-2 justify-end" to = "/marketplace">Marketplace</v-btn>
             <v-btn class="mx-2 justify-end" to ="/about">About</v-btn>
-            <v-btn class="mx-2 justify-end">Contact</v-btn>
+            <v-btn class="mx-2 justify-end" to = "/contact">Contact</v-btn>
             <v-spacer></v-spacer>
             <v-btn class="mx-2" variant = "elevated">Log in</v-btn>
             <v-btn class="mx-2" variant = "elevated">Sign up</v-btn>
