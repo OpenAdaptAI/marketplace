@@ -12,10 +12,10 @@
         >
           <v-card
             class="mx-auto my-12 rounded-xl"
-            max-width="374"
+            max-width="300"
             color="grey"
           >
-            <v-img height="170" :src="workflow.image"></v-img>
+            <v-img width = "300" height="155" :src="workflow.image" cover></v-img>
             <v-toolbar color="transparent" class="mt-n7" flat>
               <v-spacer></v-spacer>
               <v-avatar color="black" rounded class="mr-2" dark>
@@ -34,6 +34,7 @@
             }}</v-card-title>
 
             <v-card-text class="mt-n4">
+            Workflow 
               <v-chip-group
                 active-class="deep-purple accent-4 white--text"
                 column
